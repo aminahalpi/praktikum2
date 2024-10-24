@@ -1,0 +1,225 @@
+/* Styling dasar untuk seluruh dokumen */
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #c797dd; /* Warna background oranye */
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+/* Heading */
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* Paragraf dan List */
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* Styling untuk Link */
+a {
+  color: #183e66;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mengatur Gambar agar berada di tengah */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling untuk elemen ul */
+ul {
+  list-style: none; /* Menghilangkan bullet points */
+  padding: 0;
+}
+
+ul li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+/* styles.css */
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Default text color */
+  margin: 20px; /* Margin around the content */
+}
+
+h2 {
+  color: #007bff; /* Change color for headings */
+}
+
+p {
+  line-height: 1.6; /* Improve line spacing for readability */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ff0077; /* Change text color on hover */
+}
+
+h2:hover {
+  color: #fd61f5; /* Change heading color on hover */
+}
+
+p:hover {
+  color: #d735ff; /* Change paragraph color on hover */
+}
+
+p {
+  color: black;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 0px solid #f5f5f5;
+  border-left: 10px solid #2ebaed;
+}
+
+li {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 0px solid #f5f5f5;
+  border-left: 10px solid #2ebaed;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+  color: rgb(42, 183, 234);
+}
+
+h1 {
+  width: 140px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 0px solid #f5f5f5;
+  border-left: 10px solid #f5f5f5;
+}
+
+h2 {
+  width: 95px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 0px solid #f5f5f5;
+  border-left: 10px solid #f5f5f5;
+}
+
+h3 {
+  width: 115px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 0px solid #f5f5f5;
+  border-left: 10px solid #f5f5f5;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid #2ebaed;
+}
+
+html {
+  background-color: #f5f5f5;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 120px;
+    height: 120px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+body {
+  background-color: #d4cece;
+  /* Light grey background */
+}
